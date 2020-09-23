@@ -1,0 +1,11 @@
+framework module FPSPlayer {
+  umbrella header "FPSPlayer.h"
+
+  export *
+  module * { export * }
+}
+
+module FPSPlayer.Swift {
+    header "FPSPlayer-Swift.h"
+    requires objc
+}
