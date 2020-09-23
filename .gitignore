@@ -1,0 +1,13 @@
+.DS_Store
+.idea
+*.iml
+*/target/*
+xcuserdata
+*.xcuserdatad
+Pods
+*.xccheckout
+.metadata
+
+## fastlane
+fastlane/report.xml
+.env.secret
